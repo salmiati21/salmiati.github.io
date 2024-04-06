@@ -1,0 +1,94 @@
+/* Others */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #b3cde0;
+}
+
+#achievements {
+  background-color: #b3cde0;
+}
+
+
+#achievements ul li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  #achievements h4 {
+    font-size: medium !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #achievements ul li {
+    font-size: small !important;
+  }
+}
+
+#contact {
+  background-color: #ffffff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+.card {
+  float: left;
+  width: 100%;
+  padding: 0.75rem;
+  border: 0;
+  box-shadow: 0px 0px 5px 0.3px rgb(165, 165, 165);
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32;
+}
+
+.viga {
+  font-family: Viga;
+}
+
+.padding-bottom-5rem {
+  padding-bottom: 5rem;
+}
+
+/* Footer For Mobile */
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: medium;
+  }
+}
+
+/* Footer For Mobile */
+@media screen and (max-width: 480px) {
+  footer {
+    font-size: 12px;
+  }
+}
+/*  End Others */
